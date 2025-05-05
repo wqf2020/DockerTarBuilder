@@ -1,4 +1,5 @@
 name: (Single)ARM64 Pull and Save Docker Image
+run-name: Pull and Save Docker Image ${{ github.event.inputs.docker_images }}
 
 on:
   workflow_dispatch:
